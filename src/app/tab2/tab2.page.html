@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Painel de Chamados</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-button expand="block" color="success" (click)="callNext()">Chamar Próxima Senha</ion-button>
+  <ion-list>
+    <ion-item *ngFor="let senha of lastCalled">
+      <ion-label>{{ senha }}</ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

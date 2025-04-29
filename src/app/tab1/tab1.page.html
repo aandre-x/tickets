@@ -1,0 +1,11 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Emissão de Senhas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-button expand="block" color="primary" (click)="emitSenha('SP')">Emitir Senha Prioritária</ion-button>
+  <ion-button expand="block" color="secondary" (click)="emitSenha('SE')">Emitir Senha para Exames</ion-button>
+  <ion-button expand="block" color="tertiary" (click)="emitSenha('SG')">Emitir Senha Geral</ion-button>
+</ion-content>
